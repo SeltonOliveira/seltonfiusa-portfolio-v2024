@@ -1,0 +1,28 @@
+:root{
+    --primary-bg-color: #292F36;
+    --secundary-bg-color: #1A1E23;
+    --primary-text-color: #FFFFFF;
+    --secundary-text-color: #98FAEC;
+    --primary-border-color: #12F7D6;
+    --line-color: #43454D;
+}
+body{
+    background-color: #292F36;
+    font-family: "Roboto", sans-serif;
+}
+p{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+a{
+    text-decoration: none;
+}
+i{
+    color: var(--secundary-text-color);
+    font-size: 2rem;
+}
+footer{
+    border-top: 1px solid var(--line-color);
+    background-color: var(--secundary-bg-color);
+}
