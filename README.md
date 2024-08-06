@@ -32,4 +32,4 @@ O projeto está estruturado da seguinte forma:
 1. **Clone o Repositório**
 
    ```bash
-   git clone https://github.com/seu-usuario/seltonfiusa-portfolio.git
+   git clone [https://github.com/seu-usuario/seltonfiusa-portfolio.git](https://github.com/SeltonOliveira/seltonfiusa-portfolio-v2024)
