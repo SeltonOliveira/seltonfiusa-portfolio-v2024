@@ -28,11 +28,11 @@
 }
 .line{
     color: #43454D;
-    width: 75%; /* Largura desejada da linha */
-    margin: 0 auto; /* Centraliza horizontalmente */
-    border-top: 1px solid #43454D; /* Estilo da linha */
-    margin-top: 20px; /* Espaçamento superior opcional */
-    margin-bottom: 80px; /* Espaçamento inferior opcional */
+    width: 75%; 
+    margin: 0 auto; 
+    border-top: 1px solid var(--line-color); 
+    margin-top: 20px; 
+    margin-bottom: 80px;
 
 }
 
@@ -83,7 +83,8 @@
 }
 
 ul li{
-    padding: 5px;
+    display: flex;
+    align-items: center;
     color: #FFFFFF;
     font-size: 1rem;
 }
@@ -116,9 +117,7 @@ ul i{
     font-size: 2rem;
 }
 #whats{
-    background-color: #43454D;
     padding: 8px;
-    border-radius: 48%;
     color: #12F7D6;
 }
 
