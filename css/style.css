@@ -236,6 +236,7 @@ ul i{
 .content-title{
     margin-top: 128px;
     text-align: center;
+    text-shadow: 3px 1px 1px black;
 }
 .content-title p{
     font-size: 1.5rem;
@@ -268,6 +269,7 @@ ul i{
 .content-pjt{
     text-align: center;
     padding-top: 40px;
+    text-shadow: 3px 1px 1px black;
 }
 
 .cards{
