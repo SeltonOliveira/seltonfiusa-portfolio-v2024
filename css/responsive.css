@@ -118,6 +118,9 @@
         margin: 5px;
     }
 
+    .projects{
+        height: 100%;
+    }
     .cards {
         flex-direction: column;
         gap: 1rem;
@@ -126,7 +129,7 @@
     .card {
         width: 100%;
         max-width: 300px;
-        margin-left: 0;
+        margin: 10px 0;
     }
     
     .footer-container {
