@@ -26,3 +26,34 @@ footer{
     border-top: 1px solid var(--line-color);
     background-color: var(--secundary-bg-color);
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+    i{
+        padding-left: 1px;
+    }
+    .navbar {
+        display: none;
+     }
+    ::-webkit-scrollbar-track {
+        background: var(--secundary-bg-color);
+      }
+      ::-webkit-scrollbar {
+        width: 20px;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: var(--line-color);
+        border-radius: 10px;
+      }
+
+    label{
+        font-size: 2rem;
+    }
+    input{
+        font-size: 1.5rem;
+        background-color: var(--line-color);
+    }
+    textarea{
+        background-color: var(--line-color);
+        font-size: 1.5rem;
+    }
+}

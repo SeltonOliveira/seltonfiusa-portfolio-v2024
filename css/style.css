@@ -5,7 +5,7 @@
     list-style: none;
     font-style: none;
 }
-.header-hero{
+.site-header{
     max-width: 1400px;
     display: flex;
     align-items: center;
@@ -13,21 +13,21 @@
     height: 110px;
     margin: 0 auto;
 }
-.container{
+.header-container{
     display: flex;
 }
-.container p{
+.header-container p{
     font-size: 2.2rem;
     margin-left: 1rem;
 }
-.networks a{
+.social-nav a{
     color: var(--primary-text-color);
     margin: 0 2rem;
     font-size: 2rem;
     font-weight: 300;
 }
 .line{
-    color: #43454D;
+    color: var(--line-color);
     width: 75%; 
     margin: 0 auto; 
     border-top: 1px solid var(--line-color); 
@@ -40,23 +40,23 @@
     max-width: 1400px;
     margin: 0 auto;
 }
-.bg-text{
+.hero-text{
     display: flex;
     justify-content: center;
     font-size: 6rem;
-    color: #98FAEC;
+    color: var(--secundary-text-color);
     margin-bottom: 5rem;
 }
 
-.content{
+.home-content{
     margin: 0 100px 0 100px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .content-border{
-    border-bottom: 5px solid #12F7D6;
-    border-top: 5px solid #12F7D6;
+    border-bottom: 5px solid var(--primary-border-color);
+    border-top: 5px solid var(--primary-border-color);
     border-radius: 30% 0 30% 0;
 }
 
@@ -68,16 +68,16 @@
     width: auto;
     height: 410px;
     padding: 30px;
-    border: 2px solid white;
+    border: 2px solid var(--primary-text-color);
     border-radius: 30% 0 30% 0;
 }
 
 .left-cont h2{
-    color: #FFFFFF;
+    color: var(--primary-text-color);
     font-size: 2rem;
 }
 .left-cont p{
-    color: #FFFFFF;
+    color: var(--primary-text-color);
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
 }
@@ -85,7 +85,7 @@
 ul li{
     display: flex;
     align-items: center;
-    color: #FFFFFF;
+    color: var(--primary-text-color);
     font-size: 1rem;
 }
 
@@ -95,30 +95,30 @@ ul i{
 }
 
 
-.rigth-cont{
+.introduction{
     display: flex;
     flex-direction: column;
     margin-left: 150px;
 }
-.rigth-cont h1{
-    color: #FFFFFF;
+.introduction h1{
+    color: var(--primary-text-color);
     font-size: 4rem;
 }
-.sel{
-    color: #12F7D6;
+.highlight{
+    color: var(--primary-border-color);
 }
-.rigth-cont p{
+.introduction p{
     font-size: 1rem;
-    color: #FFFFFF;
+    color: var(--primary-text-color);
     margin-bottom: 3rem;
 }
-.about-icon p{
-    color: #12F7D6;
+.contact-icon a{
+    color: var(--primary-border-color);
     font-size: 2rem;
 }
 #whats{
     padding: 8px;
-    color: #12F7D6;
+    color: var(--primary-border-color);
 }
 
 /*Navbar-lateral*/
@@ -130,11 +130,11 @@ ul i{
     width: 64px;
     height: 376px;
     padding: 2px 0 2px 0;
-    background-color: #1A1E23;
+    background-color: var(--secundary-bg-color);
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid #43454D;
+    border: 1px solid var(--line-color);
     border-radius: 30px;
 }
 
@@ -142,7 +142,7 @@ ul i{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #FFFFFF;
+    color: var(--primary-text-color);
     text-decoration: none;
     padding: 15px;
     width: 50%;
@@ -153,7 +153,7 @@ ul i{
 }
 
 .navbar a:hover {
-    background-color: #43454D;
+    background-color: var(--line-color);
     border-radius: 30px;
 }
 
@@ -165,7 +165,7 @@ ul i{
     background-image: url("/img/About-me.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid #43454D;
+    border: 1px solid var(--line-color);
 }
 .content-tw{
     display: flex;
@@ -180,23 +180,23 @@ ul i{
     margin-left: 157px;
     margin-top: 433px;
 }
-.title{
+.section-title{
     width: 386px;
     text-align: center;
-    background-color: #292F36;
-    border: 2px solid #12F7D6;
+    background-color: var(--primary-bg-color);
+    border: 2px solid var(--primary-border-color);
     margin-bottom: 64px;
     border-radius: 40px 0 40px 0;
 }
-.title h2{
+.section-title h3{
     font-size: 3.5rem;
-    color: #FFFFFF;
+    color: var(--primary-text-color);
     text-shadow: 3px 1px 1px black;
 }
 .text-tw{
     display: flex;
     align-items: center;
-    background-color: #292F36;
+    background-color: var(--primary-bg-color);
     width: 880px;
     height: 313px;
     border-radius: 20px;
@@ -205,16 +205,16 @@ ul i{
     margin: 15px;
     text-align: start;
     font-size: 1.5rem;
-    color: #FFFFFF;
+    color: var(--primary-text-color);
     text-shadow: 1px 1px 1px black;
 }
-.img-tw{
+.about-me-img{
     width: 562px;
     height: 556px;
     margin-top: 396px;
 }
-.hello{
-    color: #12F7D6;
+.greeting{
+    color: var(--primary-border-color);
     font-size: 3rem;
 }
 
@@ -239,13 +239,13 @@ ul i{
 }
 .content-title p{
     font-size: 1.5rem;
-    color: #FFFFFF;
+    color: var(--primary-text-color);
 }
 .line-skill{
-    color: #43454D;
+    color: var(--line-color);
     width: 25%; /* Largura desejada da linha */
     margin: 0 auto; /* Centraliza horizontalmente */
-    border-top: 1px solid #12F7D6; /* Estilo da linha */
+    border-top: 1px solid var(--primary-border-color); /* Estilo da linha */
     margin-top: 16px; /* Espaçamento superior opcional */
     margin-bottom: 16px;
 }
@@ -263,7 +263,7 @@ ul i{
     background-image: url("/img/Works.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid #43454D;
+    border: 1px solid var(--line-color);
 }
 .content-pjt{
     text-align: center;
@@ -277,7 +277,7 @@ ul i{
     justify-content: center;
 }
 .card{
-    background-color: #1A1E23;
+    background-color: var(--secundary-bg-color);
     margin-top: 2rem;
     width: 18rem;
     border: 1px solid #2b2c31;
@@ -296,10 +296,10 @@ ul i{
     height: 443px;
 }
 .card-body{
-    background-color: #292F36;
+    background-color: var(--primary-bg-color);
 }
 .card-title{
-    color: #FFFFFF;
+    color: var(--primary-text-color);
     font-size: 2.5rem;
     margin: 2rem;
     text-shadow: 2px 2px 3px black;
@@ -315,7 +315,7 @@ ul i{
     background-color: #222;
     border-radius: 4px;
     box-sizing: border-box;
-    color: #fff;
+    color: var(--primary-text-color);
     cursor: pointer;
     display: inline-block;
     font-size: 16px;
@@ -373,25 +373,25 @@ label {
 input, textarea{
     width: 100%;
     padding: 10px;
-    border-bottom: 1px solid #12F7D6;
+    border-bottom: 1px solid var(--primary-border-color);
     background-color: transparent;
     box-shadow: none;
     border: none;
-    color: #FFFFFF;
+    color: var(--primary-text-color);
     background-color: #191a1d;
 }
 
 button {
     padding: 10px 20px;
     background-color: #3498db;
-    color: white;
+    color: var(--primary-text-color);
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
 }
 button:hover {
-    background-color: #43454D;
+    background-color: var(--line-color);
 }
 
 /* FOOTER */

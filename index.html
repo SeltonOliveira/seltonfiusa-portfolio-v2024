@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Portfólio de Selton Fiusa, desenvolvedor front-end especializado em HTML, CSS e JavaScript. Veja meus projetos e entre em contato para oportunidades freelance.">
+    <meta name="author" content="Selton Fiusa">
+    <meta name="robots" content="index, follow">
+
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/responsive.css">
@@ -16,12 +19,12 @@
     <title>Selton Fiusa</title>
 </head>
 <body>
-    <header class="header-hero">
-        <div class="container">
+    <header class="site-header">
+        <div class="header-container">
             <img src="./img/c.svg" alt="Logo da empresa Selton Fiusa">
             <p>Selton Fiusa</p>
         </div>
-        <nav class="networks">
+        <nav class="social-nav">
             <a href="https://www.instagram.com/selllsk8/"><i class="bi bi-instagram"></i>Instagram</a>
             <a href="https://github.com/SeltonOliveira"><i class="bi bi-github"></i>Github</a>
         </nav>
@@ -29,13 +32,13 @@
     <div class="line"></div>
     <!--Sessão Home-->
     <section id="home">
-        <div class="hero">
-            <div class="bg-text">Desenvolvedor Web</div>
+        <div class="hero-bg">
+            <div class="hero-text">Desenvolvedor Web</div>
         </div>
-        <div class="content">
+        <div class="home-content">
             <div class="content-border">
                 <div class="left-cont">
-                    <img class="content-img-skill" src="./img/Profile photo.svg" alt="Foto perfil selton fiusa">
+                    <img class="profile-img" src="./img/perfil.jpg" alt="Foto perfil selton fiusa">
                     <h2>Selton Fiusa</h2>
                     <p>Dev front-end</p>
                     <ul>
@@ -43,16 +46,16 @@
                         <li><i class="bi bi-geo-alt-fill"></i>Cerquilho SP</li>
                         <li><i class="bi bi-check"></i>Open to work / Freelancer</li>
                     </ul>
-                    <img class="tech-stack" src="./img/Label.svg" alt="HTML, CSS, Javascript, React">
+                    <img class="tech-stack-img" src="./img/Label.svg" alt="HTML, CSS, Javascript, React">
                 </div>
             </div>
-            <div class="rigth-cont">
-                <h1>Olá<br>Sou <span class="sel">Selton</span><br>Dev Front-end</h1>
+            <div class="introduction">
+                <h1>Olá<br>Sou <span class="highlight">Selton</span><br>Dev Front-end</h1>
                 <p>Estou sempre em busca de desafios emocionantes que me permitam expandir meu conhecimento e
                     habilidades. Meu objetivo é continuar aprendendo e aplicando novas tecnologias para desenvolver
                     soluções inovadoras que façam a diferença.</p>
-                <div class="about-icon">
-                    <p id="whats">Vamos conversar <a href="https://wa.me/15988135690"><i class="bi bi-whatsapp"></i></a></p>
+                <div class="contact-icon">
+                    <a href="https://wa.me/15988135690" id="whats">Vamos conversar <i class="bi bi-whatsapp"></i></a>
                 </div>
             </div>
             <div class="navbar">
@@ -68,20 +71,20 @@
         <div class="sobre-mim">
             <div class="content-tw">
                 <div class="content-sobre">
-                    <div class="title">
-                        <h2>Sobre mim</h2>
+                    <div class="section-title">
+                        <h3>Sobre mim</h3>
                     </div>
                     <div class="text-tw">
-                        <p><span class="hello">Olá</span> <br>
+                        <p><span class="greeting">Olá</span> <br>
                             Meu nome é Selton, estudante de Análise e Desenvolvimento de Sistemas com uma paixão
                             crescente por criar soluções digitais inovadoras. Atualmente, estou mergulhado no universo
-                            do <span class="sel">HTML</span>, <span class="sel">CSS</span> e <span
-                                class="sel">JavaScript</span>, construindo a base sólida que sustenta minhas habilidades
-                            de desenvolvimento web. Estou começando a explorar o <span class="sel">React</span>, animado
+                            do <span class="highlight">HTML</span>, <span class="highlight">CSS</span> e <span
+                                class="highlight">JavaScript</span>, construindo a base sólida que sustenta minhas habilidades
+                            de desenvolvimento web. Estou começando a explorar o <span class="highlight">React</span>, animado
                             para expandir meu conhecimento e criar interfaces interativas e dinâmicas. <br></p>
                     </div>
                 </div>
-                <img class="img-tw" src="./img/Image.svg" alt="Trabalho programação">
+                <img class="about-me-img" src="./img/Image.svg" alt="Trabalho programação">
             </div>
         </div>
     </section>
@@ -89,7 +92,7 @@
     <section id="skill">
         <div class="content-skill">
             <div class="content-title">
-                <h2 class="hello">Skills</h2>
+                <h2 class="greeting">Skills</h2>
                 <div class="line-skill"></div>
                 <p>Estou me esforçando para nunca parar de aprender e melhorar</p>
             </div>
@@ -104,7 +107,7 @@
     <!--Sessão Projetos-->
     <section class="projects">
         <div class="content-pjt">
-            <h2 class="hello">Projetos</h2>
+            <h2 class="greeting">Projetos</h2>
             <div class="line-skill"></div>
             <p>Meus Projetos em Destaque!</p>
         </div>
@@ -114,7 +117,7 @@
                 <div class="card-body">
                     <h5 class="card-title">God Of War</h5>
                     <p class="card-text">Projeto desenvolvido com as seguintes tecnologias: <span
-                            class="sel">HTML</span>, <span class="sel">CSS</span> e <span class="sel">Javascript</span>
+                            class="highlight">HTML</span>, <span class="highlight">CSS</span> e <span class="highlight">Javascript</span>
                     </p>
                     <a href="https://seltonoliveira.github.io/God-Of-War/" class="btn" role="button">Clique aqui</a>
                 </div>
@@ -134,7 +137,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Quiz</h5>
                     <p class="card-text">Este é um aplicativo de quiz simples desenvolvido em <span
-                            class="sel">React</span> / <span class="sel">Axios</span>.
+                            class="highlight">React</span> / <span class="sel">Axios</span>.
                     </p>
                     <a href="https://app-five-theta-16.vercel.app" class="btn" role="button">Clique aqui</a>
                 </div>
@@ -144,23 +147,23 @@
     <!--Sessão Contato-->
     <section id="contact">
         <div class="content-pjt">
-            <h2 class="hello">Contato</h2>
+            <h2 class="greeting">Contato</h2>
             <div class="line-skill"></div>
             <p>Atualmente estou disponível para trabalho freelance</p>
         </div>
         <div class="title-contact">
-            <div class="title">Deixe uma mensagem</div>
+            <div class="section-title">Deixe uma mensagem</div>
         </div>
         <!--Form Contato-->
         <form action="/submit" method="post">
             <div class="form-group">
-                <label for="name">Nome:</label>
+                <label for="name">Nome</label>
                 <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
-                <label for="email">Email:</label>
+                <label for="email">Email</label>
                 <input type="email" id="email" name="email" placeholder="Digite seu E-mail" required>
             </div>
             <div class="form-group">
-                <label for="message">Mensagem:</label>
+                <label for="message">Mensagem</label>
                 <textarea id="message" name="message" rows="5" maxlength="200" placeholder="Deixe sua mensagem"
                     required></textarea>
             </div>
