@@ -65,11 +65,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: auto;
+    width: 250px;
     height: 410px;
-    padding: 30px;
+    padding: 35px;
     border: 2px solid var(--primary-text-color);
     border-radius: 30% 0 30% 0;
+}
+
+.profile-img{
+    width: 200px;
+    border-radius: 50%;
 }
 
 .left-cont h2{
