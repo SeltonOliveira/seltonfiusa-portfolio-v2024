@@ -1,17 +1,20 @@
 :root{
-    --primary-bg-color: #292F36;
+    --primary-bg-color: #0c0b0b;
     --secundary-bg-color: #1A1E23;
     --primary-text-color: #FFFFFF;
     --secundary-text-color: #98FAEC;
     --primary-border-color: #12F7D6;
     --line-color: #43454D;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
-    background-color: #292F36;
+    background-color: var(--primary-bg-color);
     font-family: "Roboto", sans-serif;
 }
 p{
-    color: #FFFFFF;
+    color: var(--primary-text-color);
     font-size: 1.5rem;
     font-weight: 300;
 }

@@ -21,7 +21,13 @@
         font-size: 1.3rem;
         margin-left: 15px;
     }
+    .line{
+        margin-bottom: 55px;
+    }
 
+    #home{
+        border-bottom: 1px solid var(--line-color);
+    }
     .home-content {
         display: flex;
         flex-direction: column;
@@ -36,9 +42,7 @@
 
     .left-cont {
         height:480px;
-        text-align: start;
-        padding: 20px;
-        border: none;   
+        border: none; 
     }
     .profile-img{
         width: 250px;
@@ -52,6 +56,9 @@
         font-size: 3rem;
         margin-top: 3rem;
     }
+    .introduction h3{
+        text-align: center;
+    }
     .introduction p{
         font-size: 1.5rem;
         text-align: center;
@@ -59,6 +66,7 @@
     }
     .content-border{
         border: none;
+        margin-bottom: 30px;
     }
 
     .introduction {
@@ -67,14 +75,19 @@
     .contact-icon{
         height: 80px;
         text-align: center;
-        padding: 0;
-        margin: 0;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    #whats{
+        background-color: var(--secundary-bg-color);
+        border-radius: 30px;
     }
     /*SOBRE MIM*/
     .sobre-mim{
         height: auto;
         max-width: auto;
         margin: 0;
+        border-bottom: 1px solid var(--line-color);
     }
     .content-sobre{
         box-sizing: border-box;
@@ -89,9 +102,8 @@
         margin-top: 15px;
     }
     .section-title{
-        width: 95%;
+        width: 90%;
         margin: 10px auto;
-        height: 80px;
     }
     .title h2{
         font-size: 4rem;
@@ -102,10 +114,9 @@
         height: auto;
     }
     .text-tw p{
-        height:auto;
-        font-size: 1.4rem;
-        margin: 5px;
-        text-align: start;
+        margin-top: 20px;
+        font-size: 1.5rem;
+        text-align: center;
     }
     .about-me-img{
         display: none;
@@ -138,6 +149,10 @@
         align-items: center;
         flex-direction: column;
         margin: 5px 0;
+    }
+    #skill{
+        height: 80vh;
+        border-bottom: 1px solid var(--line-color);
     }
     .skills img{
         width:400px ;
