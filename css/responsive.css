@@ -58,11 +58,12 @@
     }
     .introduction h3{
         text-align: center;
+        margin-bottom: 20px;
     }
     .introduction p{
         font-size: 1.5rem;
-        text-align: center;
-        margin: 5px;
+        text-align: justify;
+        margin: 10px;
     }
     .content-border{
         border: none;
@@ -98,12 +99,13 @@
     }
     .content-tw{
         width: auto;
+        height: 80vh;
         padding: 0;
         margin-top: 15px;
     }
     .section-title{
-        width: 90%;
-        margin: 10px auto;
+        width: 75%;
+        margin: 30px auto;
     }
     .title h2{
         font-size: 4rem;
@@ -114,9 +116,8 @@
         height: auto;
     }
     .text-tw p{
-        margin-top: 20px;
         font-size: 1.5rem;
-        text-align: center;
+        text-align: justify;
     }
     .about-me-img{
         display: none;
@@ -186,8 +187,12 @@
     }
     .left-cont{
         height: 100%;
+        width: auto;
         border: none;
         padding-right: 60px;
+    }
+    .profile-img{
+        width: auto;
     }
     .left-cont h2{
         font-size: 3rem;
@@ -248,14 +253,15 @@
     .content-sobre{
         margin: 0;
         height: 1000px;
+        overflow: hidden;
     }
     .section-title{
         margin: 30px auto;
     }
     .text-tw{
         width: auto;
-        height: 750px;
-        margin: 5px;
+        height: auto;
+        margin: 80px;
     }
     .text-tw p{
         font-size: 2.5rem;
