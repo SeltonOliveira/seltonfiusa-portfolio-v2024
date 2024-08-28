@@ -354,3 +354,163 @@
         margin-left: 5px;
     }
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    *{
+        overflow-x: hidden;
+    }
+    .greeting{
+        font-size: 4rem;
+    }
+    .site-header{
+        margin-left: 15px;
+    }
+
+    #home {
+        width: auto;
+    }
+    .hero-text{
+        font-size: 5rem;
+    }
+    .home-content{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid var(--line-color);
+    }
+    .home-content{
+        width: auto;
+        margin: 0;
+    }
+    .content-border{
+        width: 400px;
+    }
+    .left-cont{
+        width: auto;
+        height: auto;
+    }
+    .introduction {
+        margin: 2rem 0;
+        text-align: center;
+        height: 60vh;
+    }
+    .introduction h3 {
+        font-size: 4rem;
+    }
+    .introduction p {
+        text-align: justify;
+        font-size: 2rem;
+        margin: 20px;
+    }
+    .contact-icon {
+        margin-top: 1rem;
+        padding: 50px;
+    }
+    #whats{
+        font-size: 2.5rem;
+        padding: 20px;
+        background-color: var(--secundary-bg-color);
+        border-radius: 50px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    /* Section About-me */
+
+    .sobre-mim{
+        height: auto;
+        max-width: auto;
+        margin: 0;
+        border-bottom: 1px solid var(--line-color);
+    }
+    .content-tw{
+        width: auto;
+        height: 70vh;
+        padding: 0;
+        margin-top: 15px;
+    }
+    .content-sobre{
+        box-sizing: border-box;
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .text-tw {
+        width: auto;
+        margin: 15px;
+    }
+    .about-me-img{
+        display: none;
+    }
+
+    /* Section Skill */
+
+    .content-skill {
+        width: auto;
+        height: 80vh;
+    }
+    .content-title h2 {
+        font-size: 4rem;
+    }
+    .content-title p {
+        font-size: 1.5rem;
+    }
+    .skills img{
+        width: 750px;
+    }
+
+
+    /* Section Projetos */
+
+    .projects{
+        height: auto;
+    }
+    .content-pjt p {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: 400px;
+        margin: 0 0 10px;
+    }
+    .card-text{
+        text-align: justify;
+        font-size: 2rem;
+        margin: 10px;
+        padding: 0;
+    }
+    .btn {
+        width: 250px;
+        font-size: 2rem;
+    }
+
+    /* Section contatos */
+
+    #contact {
+        height: 90vh;
+    }
+    .section-title{
+        height: 100px;
+        font-size: 2.5rem;
+        margin:  20px;
+    }
+
+    label {
+        font-size: 2rem;
+    }
+    input {
+        height: 55px;
+        font-size: 2rem;
+    }
+    textarea {
+        font-size: 2rem;
+    }
+    
+}
